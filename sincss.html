@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Smart Control Panel</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-mesh"></div>
+    <div class="bg-grid"></div>
+
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div class="scanline"></div>
+    <div class="circuit-lines"></div>
+
+    <div class="corner-decor corner-tl"></div>
+    <div class="corner-decor corner-tr"></div>
+    <div class="corner-decor corner-bl"></div>
+    <div class="corner-decor corner-br"></div>
+
+    <a href="https://belagua.com.ve/" target="_blank" class="top-link">
+        <img src="https://scontent.fccs1-2.fna.fbcdn.net/v/t39.30808-6/460439107_836991921854695_7356820392881726810_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=D9i0f0tg8eMQ7kNvwHtOMNf&_nc_oc=AdnzZe_Ztt7gpjJCOzxE-ynKGk--lAXS-pO84WcWiYcNoUIWBTLkrm4S_H8A0uZM7uk&_nc_zt=23&_nc_ht=scontent.fccs1-2.fna&_nc_gid=6n07iXwE2-pgi8-f6g9HQA&oh=00_Afsp-_OKuDGiDu6Ama1S30msc9-2qPVzqblqWwSAvkfHSA&oe=699F74AB" alt="Belagua-icon">
+    </a>
+
+    <div class="credit">
+        Daniela Rodriguez /
+        Daniel Gouveia /
+        Odette Tovar /
+        Lenin Espinoza /
+        Susej Villamizar
+    </div>
+
+    <div class="glass-container">
+        <div class="title">Smart House</div>
+        <div class="title2">Panel de Control</div>
+        <div class="status-bar">
+            <div class="status-dot"></div>
+            <div class="status-dot"></div>
+            <div class="status-dot"></div>
+        </div>
+
+        <div class="grid-botones">
+            <div class="section-label">Iluminacion Principal</div>
+            <button class="btn" onclick="location.href='/encender'">&#x1F7E2; Encender LED 1</button>
+            <button class="btn btn-off" onclick="location.href='/apagar'">&#x1F534; Apagar LED 1</button>
+
+            <div class="section-label">Iluminacion Secundaria</div>
+            <button class="btn" onclick="location.href='/encender2'">&#x1F7E2; Encender LED 2</button>
+            <button class="btn btn-off" onclick="location.href='/apagar2'">&#x1F534; Apagar LED 2</button>
+
+            <div class="section-label">Servomotores</div>
+            <button class="btn" onclick="location.href='/servo0'">&#x1F4CD; Posicion 0&#176;</button>
+            <button class="btn" onclick="location.href='/servo90'">&#x1F4CD; Posicion 90&#176;</button>
+        </div>
+    </div>
+
+</body>
+</html>
