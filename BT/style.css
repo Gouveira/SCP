@@ -388,8 +388,8 @@
         }
 
         .top-link img {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             border: 2px solid rgba(0, 229, 255, 0.4);
             transition: 0.3s;
