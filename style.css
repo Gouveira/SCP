@@ -466,7 +466,7 @@
             transition: opacity 0.3s ease;
         }
 
-        .btn:hover {
+         .btn:hover {
             border-color: var(--accent);
             transform: translateY(-3px);
             box-shadow: 0 8px 25px rgba(0, 229, 255, 0.15);
@@ -633,4 +633,5 @@
             .credit {
                 font-size: 10px;
             }
+
         }
