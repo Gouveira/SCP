@@ -4,6 +4,7 @@
     <title>Smart Control Panel</title>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Gouveira/SCP@main/images.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Gouveira/SCP@main/style.css">
 </head>
 <body>
@@ -67,13 +68,11 @@
         </div>
 
         <div class="grid-botones" id="gridBotones">
-            <div class="section-label">Iluminacion Principal</div>
-            <button class="btn" onclick="location.href='/encender'">&#x1F7E2; Encender LED 1</button>
-            <button class="btn btn-off" onclick="location.href='/apagar'">&#x1F534; Apagar LED 1</button>
-
-            <div class="section-label">Iluminacion Secundaria</div>
-            <button class="btn" onclick="location.href='/encender2'">&#x1F7E2; Encender LED 2</button>
-            <button class="btn btn-off" onclick="location.href='/apagar2'">&#x1F534; Apagar LED 2</button>
+            <div class="section-label">Luces de la casa</div>
+            <button class="btn" onclick="location.href='/sl'">&#x1F7E2; Encender Sala</button>
+            <button class="btn" onclick="location.href='/ba'">&#x1F534; Encender Baño</button>
+            <button class="btn" onclick="location.href='/cc'">&#x1F7E2; Encender Cocina</button>
+            <button class="btn" onclick="location.href='/hb'">&#x1F534; Encender Habitación</button>
 
             <div class="section-label">Servomotores</div>
             <button class="btn" onclick="location.href='/servo0'">&#x1F4CD; Posicion 0&#176;</button>
@@ -81,8 +80,8 @@
         </div>
     </div>
 
+    
     <script src="https://cdn.jsdelivr.net/gh/Gouveira/SCP@main/script.js" defer></script>
 
 </body>
-
 </html>
